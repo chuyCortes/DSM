@@ -4,6 +4,38 @@
 
 }
 /* esto funcionará si la resolución maxima de la pantalla es de 1200 pixeles de ancho */
+@media (max-width: 1366px) {
+    .top{ width:  1350px;}
+    /*colorAmarillo*/
+    .colorAma{width: 1350px;}
+    /*color gris*/
+    .colorGris{width: 1350px;}
+    .Banner {margin-left: 85px;}
+    .noticia1{margin-left: 85px;}
+    /*color Blanco*/
+    .ColorBlan{width: 1350px;}
+    .colorBlan hr {width: 88%;}
+    /*color gris abajo*/
+    .ColorGrisAb{width: 1350px;}
+        /*servicios que ofrece*/
+    .ServiciosQueOfrece{margin-left: 85px;}
+    /*ColorBlanAb*/
+    .ColorBlanAb{width: 1350px;}
+    /*programas prevencion*/
+    .ImagenProgramasPrevencion {margin-left: 85px;}
+    .ColorBlanAb hr{margin-left: -45px; width: 90%;}
+    .DescripcionProgramasPrevencion {margin-left: 85px;}
+    .ListaUnoProgramasPrevencion{margin-left: 85px;}
+    /*color azul*/
+    .ColorAzul{width: 1350px;}
+    .UnoAzulAbajo{margin-left: 85px;}
+    .ColorAzul hr{margin-left: 85px;}
+    .uanl{margin-left: 730px;}
+    body{overflow-x:hidden; }
+    #menu-bar{display: none;}
+    .icon-menu{display: none;}
+}
+
 @media (max-width: 1280px) {
     .top{ width: 1250px;}
     .arriba {width: 985px;}
@@ -38,8 +70,8 @@
     .colorBlan hr {width: 93%}
     .centroArriba{width: 1152px;}
     .Abajo li{margin-left: 34px;}
-    
-    
+    #menu-bar{display: none;}
+    .icon-menu{display: none;}
 
 }
 @media (max-width: 1024px){
@@ -88,7 +120,8 @@
     .TresAzulAbajo{margin-left: 400px;margin-top: 0px;}
     .colorAzul hr{margin-top: 10px;width: 400px;}
     .uanl{margin-top: 435px; margin-left: 455}
-    
+    #menu-bar{display: none;}
+    .icon-menu{display: none;}
 }
 
 
@@ -163,7 +196,7 @@
     .munu-responsivo a{display: block; color: white;height: 43px;text-decoration: none; font-family: "light"; padding-left: 15px;padding-top:3 ; border-bottom:  1px solid  rgba(255,255,255,0.5);}
     .munu-responsivo a:hover {color:#999999; background:#111111;}
     #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-25%);}
-    
+    .icon-menu{display: block;}
 }
 
 @media (max-width: 480px){
@@ -242,7 +275,7 @@
     .munu-responsivo a{display: block; color: white;height: 43px;text-decoration: none; font-family: "light"; padding-left: 15px;padding-top:3 ; border-bottom:  1px solid  rgba(255,255,255,0.5);}
     .munu-responsivo a:hover {color:#999999; background:#111111;}
     #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-40%);}
-    
+    .icon-menu{display: block;}
     
 }
 
@@ -328,7 +361,7 @@
     .AbajoBlanco {width: 300px;}
     .ServiciosQueOfrece{width: 300pX;}
     .TituloProgramasPrevencion{margin-top: -20px; margin-left: 30}
-
+    .icon-menu{display: block;}
 }
 
 
