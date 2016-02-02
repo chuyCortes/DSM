@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "light";
+    src: url('../../Types/OpenSans/OpenSans-Light.ttf');
+
+}
+/* esto funcionará si la resolución maxima de la pantalla es de 1200 pixeles de ancho */
+@media (max-width: 1280px) {
+    .top{ width: 1250px;}
+    .arriba {width: 985px;}
+    .abajo {width: 985px;}
+    .colorAma {width: 1250px;}
+    .Banner {width: 1150px; margin-left: 50px;}
+    .colorGris{ width: 1250px;}
+    .noticia1{margin-left: 50px; }
+    .preNoticia1{width: 785px;}
+    .arribaBlanco{width: 1150px; margin-left: 50px;}
+    .noticia2{ width: 270px;}
+    .noticia3{ width: 270px;}
+    .noticia4{ width: 270px;}
+    .noticia5{ width: 270px;}
+    .colorBlan{width: 1250px;}
+    .noticia2Titulo{width: 270px;}
+    .noticia2desc{width: 270px;}
+    .colorGrisAb{width: 1250px;}
+    .serviciosQueOfrece{margin-left: 35px;}
+    .colorBlanAb{width: 1250px;}
+    .imagenProgramasPrevencion{margin-left: 40px;}
+    .colorBlanAb hr{margin-left:-40px; width: 93%; }
+    .descripcionProgramasPrevencion{margin-left: 45px;}
+    .descripcionProgramasPrevencion p{width: 1170}
+    .listaUnoProgramasPrevencion{margin-left: 45px;}
+    .listaUnoProgramasPrevencion li{width: 450px;}
+    .listaDosProgramasPrevencion{margin-left: 20px;}
+    .colorAzul{width: 1250px;}
+    .UnoAzulAbajo{margin-left: 45px;}
+    .colorAzul hr{width: 55%; margin-left: 45px;}
+    .uanl{margin-left: 750px;}
+    .colorBlan hr {width: 93%}
+    .centroArriba{width: 1152px;}
+    .Abajo li{margin-left: 34px;}
+    
+    
+
+}
+@media (max-width: 1024px){
+    /*top */
+    .top{margin-left: 0px; width: 1007px;}
+    .Arriba{width:842px; }
+    .Abajo{width: 842px;padding-left: 0px;}
+    .Abajo ul li{margin-left: 12px;}
+    .CentroArriba{clear: both; width: 1007px;}
+    /*color amarillo*/
+    .ColorAma {width: 1007px;}
+    .Banner{width: 1007px;margin-left: 0px;}
+    /*color gris*/
+    .ColorGris{width: 1007px;}
+    .Noticia1 {width: 1007px; margin-left: 0px;}
+    .PreNoticia1{width: 635px;}
+    /*colorBlan*/
+    .colorBlan{width: 1007px; height: 1500px;}
+    .ArribaBlanco {width: 1007px;margin-left: 0}
+        /*noticias*/
+    .noticia2{margin-left: 180px; margin-right: 160px;}
+    .noticia4{margin-left: 180px; margin-right: 160px;}
+    .AbajoBlanco {width: 1007px;}
+    .SabiasQue{width: 1007px;}
+    .DescSabiasQue{width: 655px;margin-left: 5px;}
+    .vmSabiasQue {margin-left: 575}
+    .AbajoSabiasQue{width: 1007px;}
+    .MiniImagenesSabiasQue{margin-right: 0px;margin-left: 5px;}
+    .izq{margin-left: 5px;}
+    /*ColorGrisAb*/
+    .ColorGrisAb{width: 1007px; height:650px; }
+        /*servicios que se ofrece*/
+    .ServiciosQueOfrece{margin-left: 5px;}
+            /*ContactosFrecuentes*/
+    .ContactosFrecuentes{margin-left: 8px; height: 200px;}
+    /*ColorBlanAb*/
+    .ColorBlanAb{width: 1007px;}
+        /*ProgramasPrevencion*/
+    .ImagenProgramasPrevencion{margin-left: 5px;}
+    .DescripcionProgramasPrevencion {margin-left: 5px; width: 1000}
+    .DescripcionProgramasPrevencion p {width: 1000;}
+    .ListaUnoProgramasPrevencion{margin-left: 5px;}
+    .ListaDosProgramasPrevencion{margin-left: 95px;}
+    /*color azul*/
+    .colorAzul{width: 1007px;height: 500px; }
+    .TresAzulAbajo{margin-left: 400px;margin-top: 0px;}
+    .colorAzul hr{margin-top: 10px;width: 400px;}
+    .uanl{margin-top: 435px; margin-left: 455}
+    
+}
+
+
+@media (max-width: 780px){
+    .top {width: 755}
+    .arriba {width: 545px;}
+    .abajo {width: 545px;}
+    .abajo ul{display: none;}
+    .centroArriba{width: 720px;}
+    .Banner {width: 710px; margin-left: 20px;}
+    .colorAma {width: 765px;}
+    .colorGris{ width: 765px;}
+    .noticia1{margin-left: 20px; width: 735px; }
+    .imagenNoticia1 img{height:70% ;width: 70%;}
+    .tituloNoticia1{margin-left: 35%}
+    .preNoticia1{margin-left: 35%; width: 455px;}
+    .not1{margin-left: 250px;}
+    .colorBlan {width: 755px; height: 1500px;}
+    .noticia2{margin-left: 20; margin-right:160}
+    .noticia4 {margin-left: 20; margin-right:160}
+    .arribaBlanco{width: 755px; height: 100px; margin-left: 0}
+    .colorGrisAb{width: 765px;}
+    .AbajoBlanco {width: 755px;}
+    .sabiasQue{width: 730}
+    .ImagenSabiasQue{width: 30%; height: 50%;}
+    .ImagenSabiasQue img{width: 100%; height: 100%;}
+    .tituloSabiasQue{margin-top: -130px; }
+    .tituloSabiasQue h3{width: 480px; margin-left: -40px;}
+    .DescSabiasQue {width: 470px; height: 200px; margin-left: 30px;margin-top: 85px;}
+    .DescSabiasQue p{width: 470px; height: 200px;}
+    .vmSabiasQue {margin-left: 400px;}
+    .abajoSabiasQue {width: 730px;}
+    .miniImagenesSabiasQue{width: 200px; margin-left: -25px;}
+    .izq {margin-right: 75}
+    .miniImagenesSabiasQue img{width: 200px;}
+    .serviciosQueOfrece{width: 730px;}
+    #imagenServiciosQueOfrece{height: 20px;width:20px;}
+    #imagenServiciosQueOfrece img{ height: 100%; height: 100%;}
+    #TituloServiciosQueOfrece h2{font-size: 15px; margin-top: 20px; margin-left: 5px;  }
+    .serviciosQueOfrece hr {width: 60%;}
+    .DescrServiciosQueOfrece {width: 400px;}
+    .DescrServiciosQueOfrece p{width: 100%;}
+    .lista{padding-right: 10px; width: 120px;}
+    .lista li{width: 120px;}
+    .contactosFrecuentes{width: 250px;  position:absolute; margin-left: 490}
+    .imagenContactosFrecuentes{height: 20px; width: 25px;}
+    .imagenContactosFrecuentes img{ height: 100%; width: 90%;}
+    .tituloContactosFrecuentes  h2{font-size: 15px; width: 150;margin-top: -25px; margin-left: 35px; }
+    .contactosFrecuentes hr {margin-top: -21px;}
+    .listaContactosFrecuentes {margin-top: 30px; text-align: right;}
+    .listaContactosFrecuentes p {text-align: right;}
+    .colorBlanAb{width: 755px;}
+    .colorBlanAb hr{width: 690px; margin-left: 35px; margin-top: 0px;}
+    .imagenProgramasPrevencion {height: 20px;width: 20px;}
+    .imagenProgramasPrevencion img {height: 100%; width: 90%;}
+    .tituloProgramasPrevencion {font-size: 10px;margin-top: 30px; margin-left: 1px;    }
+    .DescripcionProgramasPrevencion {width: 695px; margin-top: 1px; margin-left: 35px;}
+    .DescripcionProgramasPrevencion p {width: 100%;}
+    .listaUnoProgramasPrevencion{width: 350px; font-size: 11px;}
+    .listaDosProgramasPrevencion{width: 330px; font-size: 11px;}
+    .colorAzul{ width: 765px;}
+    .colorAzul p{font-size: 12px;}
+    .unoAzulAbajo{width: 210px;}
+    .dosAzulAbajo{width: 180px;}
+    .uanl{width: 230px; margin-left: 470px;}
+    body {overflow-x: hidden;}
+    /*menu */
+    .top{z-index: 100;position: fixed;top:0;left: 0;} 
+    #menu-bar{ display: none; margin-right: 30px;}
+    .icon-menu{margin-left: 500px; font-size: 40px; color: white; cursor: pointer;}
+    .munu-responsivo{position: fixed; width: 780px;height: 100%;background:rgba(51,51,51,0.8); z-index: 50;top:125;transition: all 0.5s;transform: translateX(-150%);}
+    .munu-responsivo a{display: block; color: white;height: 43px;text-decoration: none; font-family: "light"; padding-left: 15px;padding-top:3 ; border-bottom:  1px solid  rgba(255,255,255,0.5);}
+    .munu-responsivo a:hover {color:#999999; background:#111111;}
+    #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-25%);}
+    
+}
+
+@media (max-width: 480px){
+    .ArribaBlanco {width: 463px;}
+    .ColorBlan{width:463px; }
+    .AbajoBlanco {width: 463px;}
+    body{overflow-x: hidden;}
+    .top{width: 463px;}
+    .logo{margin-left: 18px;}
+    .arriba{width: 270px;}
+    .abajo{width: 270px;}
+    .centroArriba{width: 463px;}
+    .banner{display: none;}
+    .colorAma{display: none;}
+    .colorGris{width: 463px; height: 500px;top: 125px;}
+    .imagenNoticia1{margin-top: 10px; margin-left: 0px; width: 430px;}
+    .imagenNoticia1 img{height: 100%; width: 100%;}
+    .tituloNoticia1{margin-top: 20px; margin-left: 0px;}
+    .preNoticia1{margin-top: 90px;margin-left: -270px; width: 430px;}
+    .not1 {margin-top: 10px; margin-left: 330px;}
+    .noticia1{width: 433px; height: 450px; margin-top: 20px;}
+    .colorBlan{width: 463px;height: 2600px; padding-left: 80px; margin-top: 150px;}
+    .arribaBlanco{width: 433px;}
+    .noticia2{width: 430px; height: 440px; margin-left: -65px;}
+    .Noticia2titulo{width: 420px;}
+    .Noticia2desc{width: 420px;}
+    .Noticia2ima{margin-left: 100px;}
+    .noticia3{width: 430px; height: 440px; margin-left: -65px;}
+    .noticia4{width: 430px; height: 440px; margin-left: -65px;}
+    .noticia5{width: 430px; height: 440px; margin-left: -65px;}
+    .colorBlan hr{width: 429px; margin-left: -65px;}
+    .sabiasQue{margin-left: -65px;}
+    .sabiasQue h3{text-align: left; margin-top: -150px; margin-left: 200px; width: 430px;}
+    .descSabiasQue{margin-top: 70px; margin-left: 0px; width: 430px;}
+    .imagenSabiasQue{margin-right:120px; margin-top: 170px; width: 350px;}
+    .vmSabiasQue{margin-left: 355px;margin-top: 300px;}
+    .miniImagenesSabiasQue {width: 440px; margin-top: 30px; display: block; margin-left: 0px;}
+    .miniImagenesSabiasQue img {width: 100%; height: 100%;}
+    .izq{margin-right: 0px; display:block;}
+    .abajoBlanco {width: 450px; margin-left: 0px;}
+    .sabiasQue{width: 463px;}
+    .abajoSabiasQue{width: 463px; margin-left: -90px;}
+    .ServiciosQueOfrece{width: 430px; display: block; margin-left: 10}
+    .DescrServiciosQueOfrece{margin-top: 5px;}
+    .colorGrisAb{width: 463px; height: 600px;}
+    .contactosFrecuentes{margin-top: 360px; margin-left: 10px;}
+    .serviciosQueOfrece hr {width: 100%;}
+    .DescrServiciosQueOfrece {width: 435px;}
+    .lista{padding-right: 20px;}
+    .contactosFrecuentes li {text-align: left;}
+    .contactosFrecuentes li p {text-align: left;}
+    .contactosFrecuentes hr {width: 170%}
+    .ColorBlanAb{width: 463px;}
+    .ImagenProgramasPrevencion{margin-left: 10px;}
+    .ColorBlanAb hr{width: 430px; margin-left: 10px;}
+    .DescripcionProgramasPrevencion {margin-left: 10px; width: 430px;}
+    .ListaUnoProgramasPrevencion{margin-left: 10px; height: 200px;}
+    .ListaDosProgramasPrevencion{margin-left: -11px; margin-top: -10px;height: 200px;}
+    .colorAzul{width: 463px;}
+    body{width: 463px;}
+    .unoAzulabajo{margin-top: 10px; margin-left: 10px;}
+    .dosAzulabajo{margin-left: 30px; margin-top: 10px;}
+    .tresAzulAbajo{margin-left: 145px; margin-top: -40}
+    .colorAzul hr {margin-top:-20px; margin-left: 5px; width: 200px;}
+    .uanl{margin-top: 310px; margin-left: 210px; height: 50px;}
+    .ColorBlan{width: 463px;}
+    .ArribaBlanco {width: 463px;}
+    .abajoBlanco {width: 463px;}
+    .AbajoSabiasQue{width: 463px;}
+    .SabiasQue{width: 463px;}
+    /*menu */
+    .top{z-index: 100;position: fixed;top:0;left: 0;} 
+    #menu-bar{ display: none; margin-right: 30px;}
+    .icon-menu{margin-left: 225px; font-size: 40px; color: white; cursor: pointer;}
+    .munu-responsivo{position: fixed; width: 480px;height: 100%;background:rgba(51,51,51,0.8); z-index: 50;top:125;transition: all 0.5s;transform: translateX(-150%);}
+    .munu-responsivo a{display: block; color: white;height: 43px;text-decoration: none; font-family: "light"; padding-left: 15px;padding-top:3 ; border-bottom:  1px solid  rgba(255,255,255,0.5);}
+    .munu-responsivo a:hover {color:#999999; background:#111111;}
+    #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-40%);}
+    
+    
+}
+
+@media (max-width: 320px){
+    body{width: 320px; overflow-x: hidden}
+    .logo{width: 140px; height: 70px; margin-left: 2px;margin-top: -10px;}
+    .logo img{width: 100%; height: 100%; }
+    .top{z-index: 100;position: fixed;top:0;left: 0;} 
+    .arriba{width: 160px;}
+    .abajo{width: 165px;padding-left: 15}
+    #menu-bar{ display: none; margin-right: 30px;}
+    .icon-menu{margin-left: 100px; font-size: 40px; color: white; cursor: pointer;}
+    .munu-responsivo{position: fixed; width: 302px;height: 100%;background:rgba(51,51,51,0.8); z-index: 50;top:125;transition: all 0.5s;transform: translateX(-152%);}
+    .munu-responsivo a{display: block; color: white;height: 43px;text-decoration: none; font-family: "light"; padding-left: 15px;padding-top:3 ; border-bottom:  1px solid  rgba(255,255,255,0.5);}
+    .munu-responsivo a:hover {color:#999999; background:#111111;}
+    #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-52%);}
+    /*cosas que no son del menu*/
+    .colorGris{top: 125px; width: 305px;height: 400px;}
+    .noticia1{margin-left: 0px; margin-top: 0px;  width: 302px;height: 300px;}
+    .ImagenNoticia1{width: 301px; height: 150px;margin: 1}
+    .noticia1 img{width: 301px; height: 150px;}
+    .prenoticia1{width: 301}
+    .TituloNoticia1{width: 300px;overflow: hidden}
+    .noticia1 h3 {width: 300px; height: 85px;}
+    .PreNoticia1 {margin: 0px;}
+    .not1 {margin-left: 200px;}
+    .ColorBlan{margin-top: 100px;padding: 0px;}
+    .Noticia2Titulo{margin-top: 0px; margin-left: 70px; width: 275}
+    .Noticia2TItulo p{padding: 0px;margin: 0px;}
+    .Noticia2desc {width:275px;margin:10px 70px 5px; padding: 0;}
+    .Noticia2desc p {margin:0;padding: 0px; font-size: 11 }
+    .Noticia2Ima{margin-left: 108px;}
+    .notGenerica {margin: 5px 270px 0px }
+    .colorBlan hr {margin: 0px 7px; width: 85%}
+    .TituloSabiasQue{margin: -200 -55 0 0px; width: 290px; padding: 0; }
+    .TituloSabiasQue h3 {margin:0;padding: 0; width: 290px;}
+    .DescSabiasQue {width: 290px; margin: 260 70px; padding: 0;}
+    .DescSabiasQue p {margin: 0px; padding: 0px; width: 290px; }
+    .ImagenSabiasQue {margin: 80 -65 0 0; width: 300px;}
+    .DescSabiasQue {height: 55px;margin-top: 240px;}
+    .vmSabiasQue {margin-left: 270px;}
+    .MiniImagenesSabiasQue {width: 250px; margin-right: -60}
+    .ServiciosQueOfrece hr{margin: 0px 7px; width: 90%}
+    .ContactosFrecuentes hr {margin: -40px 7px; width: 103%}
+    .DescrServiciosQueOfrece {margin: 0px;padding: 0px; width: 280px;}
+    .DescrServiciosQueOfrece p{margin: 0px; padding: 0; }
+    .lista{margin-left: 0px; margin-right: 10px; margin-top:25px; display: block; height: 70px;}
+    .lista li {width: 110px;}
+    .lista ul{margin-top: 0}
+    .listaContactosFrecuentes{margin-top: -15px;}
+    .ColorBlanAb hr {margin: 0px 7px; width: 85%}
+    .DescripcionProgramasPrevencion {height: 55px; width: 280px; margin: 10px;overflow: hidden;}
+    .DescripcionProgramasPrevencion p {padding: 0px; margin:0px; }
+    .ListaUnoProgramasPrevencion ul li{padding: 0px; margin-top: 0; font-size: 8.7px; width: 300px;}
+    .ListaDosProgramasPrevencion ul li{padding: 0px; margin-top: 0; font-size: 8.7px; width: 300px;}
+    .ListaUnoProgramasPrevencion ul {padding: 6px; margin-top: 0;
+    display: block;} 
+    .ListaDosProgramasPrevencion ul {margin-top: -50;margin-left: -14px;
+    display: block;}
+    .UnoAzulAbajo{display: block;margin: 5 40; width: 200px; height: 120px;}
+    .UnoAzulAbajo p {width: 250px;}
+    .DosAzulAbajo{display: block;margin: 5 40; height: 180px;}
+    .DosAzulAbajo p {width: 250px;}
+    .colorAzul{width: 300px; height: 550px;}
+    .colorAzul hr{margin: 0px 7px; width: 92%}
+    .TresAzulAbajo{margin-left: 40px;}
+    .uanl {margin-left: 35px; margin-top: 480px; text-align: justify;}
+    .ColorGrisAb{width: 300px;}
+    .ColorBlan{width: 300px;}
+    .Noticia2{width: 300px;}
+    .ColorBlanAb{width: 300px;}
+    .ColorBlan{width: 319px;}
+    .ArribaBlanco {width: 300px;}
+    .Noticia2 {width: 315px; margin-right: 0px;}
+    .notGenerica{margin-right: 0px;}
+    .ListaUnoProgramasPrevencion{width: 300px;}
+    .DescrServiciosQueOfrece{margin-right: -10px;}
+    .AbajoSabiasQue{width: 300px;}
+    .Noticia4{width: 300px;}
+    .Noticia5{width: 300px;}
+    .Noticia3{width: 300px;}
+    .SabiasQue{width: 300px;}
+    .AbajoBlanco {width: 300px;}
+    .ServiciosQueOfrece{width: 300pX;}
+    .TituloProgramasPrevencion{margin-top: -20px; margin-left: 30}
+
+}
+
+
+
+
+
+
