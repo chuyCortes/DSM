@@ -396,7 +396,28 @@
     .munu-responsivo{display: block;}
 }
 
+/* cosas especificas para otros  navegadores */
 
+@-moz-document url-prefix() {
+  
+        
+    @media (max-width: 320px){
+        .TituloNoticia1{margin-left:7px;}
+        .PreNoticia1{margin-left: 7px;}
+        .DescSabiasQue{margin-top: 240px;}
+        .MiniImagenesSabiasQue{margin-top: 95px;}
+        .izq{margin-left: -20px; margin-top: 5px;}
+        .vmSabiasQue{margin-top: 315px;}
+        .colorBlan hr {margin-top: 1700px; margin-left: 5px;}
+        .ColorGrisAb hr{margin-left: 0px; margin-top: 50px;}
+        .lista{margin-top: 60px;}
+        #ImagenServiciosQueOfrece{margin-top: 10px;}
+        #TituloServiciosQueOfrece{margin-top: 5px;}
+        .contactosFrecuentes{margin-top: 400px;}
+        .ContactosFrecuentes hr {margin-top: -35px;}
+    }
+
+}
 
 
 
