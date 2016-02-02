@@ -752,8 +752,7 @@ body
     color: white;
 
 }
-
-@font-face {
+/*@font-face {
     font-family: "light";
     src: url('../../Types/OpenSans/OpenSans-Light.ttf');
 
@@ -765,7 +764,7 @@ body
 @font-face {
     font-family: 'bold';
     src: url('../../Types/OpenSans/OpenSans-Bold.ttf');
-}
+}*/
 .Noticia2desc
 {
     font-family: "regular";
