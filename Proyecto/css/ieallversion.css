@@ -1,0 +1,17 @@
+/*IE Responsive*/
+
+@media (max-width: 780px){
+        .top {background-color: blue; }
+    }
+
+
+
+/*
+	  <![if IE]>
+            <style>
+                .top {
+                    background-color: red;
+                }
+            </style>
+        <![endif]>
+*/
