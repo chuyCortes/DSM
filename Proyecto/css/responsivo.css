@@ -414,7 +414,13 @@
         .vmSabiasQue{margin-top: 1890px;}
         .ImagenSabiasQue {margin-top: 180px;}
         .ListaDosProgramasPrevencion{margin-left:-13px; margin-top: 2px;}
-
+        .TituloContactosFrecuentes h2{margin-top: 0px;}
+        .TituloContactosFrecuentes{margin-top:-10px;}
+        .ImagenContactosFrecuentes{margin-top: 70px}
+        .lista {margin-top: -15px;}
+        .TresAzulAbajo{margin-top: 0px; margin-left: 150px;}
+        .colorAzul hr {margin-top: 5px;}
+        .uanl{margin-top: 370px;}
     }    
     @media (max-width: 320px){
         .TituloNoticia1{margin-left:7px;}
