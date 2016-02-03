@@ -400,7 +400,14 @@
 
 @-moz-document url-prefix() {
   
-        
+    
+    @media (max-width: 480px){
+        .DescSabiasQue{margin-top: 1750px;}
+        .vmSabiasQue{margin-top: 1890px;}
+        .ImagenSabiasQue {margin-top: 180px;}
+        .ListaDosProgramasPrevencion{margin-left:-13px; margin-top: 2px;}
+
+    }    
     @media (max-width: 320px){
         .TituloNoticia1{margin-left:7px;}
         .PreNoticia1{margin-left: 7px;}
@@ -415,6 +422,7 @@
         #TituloServiciosQueOfrece{margin-top: 5px;}
         .contactosFrecuentes{margin-top: 400px;}
         .ContactosFrecuentes hr {margin-top: -35px;}
+
     }
 
 }
