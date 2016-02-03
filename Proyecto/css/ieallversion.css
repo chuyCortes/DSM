@@ -1,7 +1,11 @@
-/*IE Responsive*/
+/*IE Responsive 7 equal or mayor */ 
 
 @media (max-width: 780px){
-        .top {background-color: blue; }
+        .ServiciosQueOfrece hr {width:55%; margin-left: -280px;}
+    	.ListaDosProgramasPrevencion {margin-top: 0px; margin-left: 50px;}
+    	.tresAzulAbajo{margin-top: 50px; margin-left: 50px;}
+    	.colorAzul hr {margin-top: 90px;}
+    	.uanl {margin-top: 310px;}
     }
 
 
