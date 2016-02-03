@@ -400,7 +400,15 @@
 
 @-moz-document url-prefix() {
   
-    
+    @media (max-width: 780px){
+        .DescSabiasQue{margin-top: 1000px;}
+        .vmSabiasQue{margin-top: 1120px;}
+        .MiniImagenesSabiasQue{margin-top: 80px;}
+        .ListaDosProgramasPrevencion{margin-left:15px; margin-top: 2px;}
+        .TresAzulAbajo {margin-left: 30px; margin-top: 55px;}
+        .colorAzul hr {margin-top: 90px;}
+        .uanl{margin-top: 320px;}
+    }
     @media (max-width: 480px){
         .DescSabiasQue{margin-top: 1750px;}
         .vmSabiasQue{margin-top: 1890px;}
