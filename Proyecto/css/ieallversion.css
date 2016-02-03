@@ -17,6 +17,11 @@
 		.uanl {margin-top: 385px;}
 	}
 
+@media (max-width: 480px){
+		.colorBlan hr {margin-left: -10px; width: 88%;}
+		.tresAzulAbajo {margin-left: 40px; margin-top: -40px;}
+		.uanl {margin-top: 500px;}
+}
 /*
 	  <![if IE]>
             <style>
