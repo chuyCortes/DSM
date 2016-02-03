@@ -425,17 +425,25 @@
     @media (max-width: 320px){
         .TituloNoticia1{margin-left:7px;}
         .PreNoticia1{margin-left: 7px;}
-        .DescSabiasQue{margin-top: 240px;}
+        
+        .TituloSabiasQue{margin-top: -300px;}
+        .DescSabiasQue{margin-top: 90px;}
         .MiniImagenesSabiasQue{margin-top: 95px;}
         .izq{margin-left: -20px; margin-top: 5px;}
-        .vmSabiasQue{margin-top: 315px;}
+        .vmSabiasQue{margin-top: 335px;}
+        
         .colorBlan hr {margin-top: 1700px; margin-left: 5px;}
         .ColorGrisAb hr{margin-left: 0px; margin-top: 50px;}
         .lista{margin-top: 60px;}
         #ImagenServiciosQueOfrece{margin-top: 10px;}
         #TituloServiciosQueOfrece{margin-top: 5px;}
         .contactosFrecuentes{margin-top: 400px;}
-        .ContactosFrecuentes hr {margin-top: -35px;}
+        .ContactosFrecuentes hr {margin-top: -18px;}
+
+        .ImagenContactosFrecuentes{margin-top: 30px}
+        .TresAzulAbajo{margin-top: 0px; margin-left: 50px;}
+        .colorAzul hr{margin-top: -20px;}
+        .uanl{margin-top: 500px;}
 
     }
 
