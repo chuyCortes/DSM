@@ -8,7 +8,14 @@
     	.uanl {margin-top: 310px;}
     }
 
-
+@media (max-width: 480px){
+		.colorBlan hr {margin-left: -170px; width: 90%;}
+		.ServiciosQueOfrece hr {margin-left: 0px; width: 92%;}
+		.ListaDosProgramasPrevencion {margin-left: -15px; margin-top: -10px;}
+		.tresAzulAbajo{margin-top: 0px;margin-left: 150px;}
+		.colorAzul hr {margin-top: 20px;}
+		.uanl {margin-top: 385px;}
+	}
 
 /*
 	  <![if IE]>
