@@ -7,7 +7,7 @@ body
 /* dentro style; begin*/
 .middel{
     width: 1180px;
-    border: 1px  solid black;
+    /*border: 1px  solid black;*/
     margin:0 auto;
     overflow: hidden;
 }
@@ -15,28 +15,46 @@ body
    
     float: left;
     width: 70%;
-    
+    margin-bottom: 10%;
     
 }
 .info h2 {
     font-family: 'light';
+    color: #6c6c6c;
 }
 .info p {
     width: 92%;
     overflow: auto;
     text-align: justify;
     font-family: 'regular';
+    color: #6c6c6c;
 
 }
 .infoSabiasQue{
-    background-color: blue;
+    
     float: left;
     width:30%;
     
 }
 
+.infoSabiasQue img{
+    width: 100%;
+    height: 200px;
+    margin-top: 75px
+}
 
-
+.mnSQ img{
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.vm {
+    margin-bottom: 20px;
+}
+.infohr{
+    width: 1px;
+}
 
 /* end*/
 
