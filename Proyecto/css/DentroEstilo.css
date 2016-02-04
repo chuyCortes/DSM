@@ -4,6 +4,43 @@ body
     padding:0;
    
 }
+/* dentro style; begin*/
+.middel{
+    width: 1180px;
+    border: 1px  solid black;
+    margin:0 auto;
+    overflow: hidden;
+}
+.info{
+   
+    float: left;
+    width: 70%;
+    
+    
+}
+.info h2 {
+    font-family: 'light';
+}
+.info p {
+    width: 92%;
+    overflow: auto;
+    text-align: justify;
+    font-family: 'regular';
+
+}
+.infoSabiasQue{
+    background-color: blue;
+    float: left;
+    width:30%;
+    
+}
+
+
+
+
+/* end*/
+
+
 .top 
 {
     background-color: #FFCD36;
@@ -133,7 +170,7 @@ body
 {
     background-color: white;
     width: 1680px;
-    height: 1000px;
+    
 }
 .ColorGrisAb
 {
