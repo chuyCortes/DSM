@@ -869,3 +869,16 @@ a:visited{
 {
     font-family: "light";
 }
+
+
+
+/************************************************/
+@media (max-width: 1024px){
+.middel{margin-top:100px; }
+    .info{width: 50%; margin-bottom:0;    }
+    .info p { width: 90%;}
+    .infoSabiasQue{
+        /*display: block;
+        //height: 100%;*/
+    }
+}

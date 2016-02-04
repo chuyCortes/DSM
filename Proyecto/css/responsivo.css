@@ -151,6 +151,15 @@
     #menu-bar{display: none;}
     .icon-menu{display: none;}
     .munu-responsivo{display: none;}
+
+    /* //////////////////////////////////////////////////////////////////////// */
+    .middel{margin-top:100px; }
+    .info{width: 50%; margin-bottom:0;    }
+    .info p { width: 90%;}
+    .infoSabiasQue{
+        /*display: block;
+        //height: 100%;*/
+    }
 }
 
 
@@ -227,6 +236,14 @@
     #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-25%);}
     .icon-menu{display: block;}
     .munu-responsivo{display: block;}
+    /* //////////////////////////////////////////////////////////////////////// */
+    .middel{margin-top:100px; }
+    .info{width: 35%; margin-bottom:0;    }
+    .info p { width: 90%;}
+    .infoSabiasQue{
+        /*display: block;
+        //height: 100%;*/
+    }
 }
 
 @media (max-width: 480px){
@@ -309,6 +326,14 @@
     #menu-bar:checked ~ .munu-responsivo  {transition: all 0.5s;transform: translateX(-40%);}
     .icon-menu{display: block;}
     .munu-responsivo{display: block;}
+    /* //////////////////////////////////////////////////////////////////////// */
+    .middel{margin-top:100px; margin-left: -65px;  }
+    .info{width: 100%; margin-left: 0px;  }
+    .info p { width: 35%;}
+    .infoSabiasQue{
+        /*display: block;
+        //height: 100%;*/
+    }
     
 }
 
@@ -396,6 +421,7 @@
     .TituloProgramasPrevencion{margin-top: -20px; margin-left: 30}
     .icon-menu{display: block;}
     .munu-responsivo{display: block;}
+
 }
 
 /* cosas especificas para otros  navegadores */
