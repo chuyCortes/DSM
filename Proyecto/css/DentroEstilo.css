@@ -4,6 +4,15 @@ body
     padding:0;
    
 }
+a:link{
+    text-decoration: none;
+    color: #6c6c6c;
+
+}
+a:visited{
+    text-decoration: none;
+    color: #6c6c6c;
+}
 /* dentro style; begin*/
 .middel{
     width: 1180px;
