@@ -421,6 +421,13 @@
     .TituloProgramasPrevencion{margin-top: -20px; margin-left: 30}
     .icon-menu{display: block;}
     .munu-responsivo{display: block;}
+    /* //////////////////////////////////////////////////////////////////////// */
+    .middel{margin-top:100px; margin-left: 0px;  }
+    .info{width: 100%; margin-left: 0px;  }
+    .info p { width: 24%;}
+    .infoSabiasQue{
+        width: 25%;
+    }
 
 }
 
