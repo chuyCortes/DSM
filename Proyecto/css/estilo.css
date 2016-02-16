@@ -27,25 +27,17 @@ html {
 #logoUni{
  margin-top:2.7%;
 }
-
-/*EndHeader*/
-
-
-
+/*btns seek, home, search text field */
 a:link , a:visited{
     text-decoration: none;
     color: #6c6c6c;
 }
-
-
-
-.Buscador input 
+#Buscador  
 {
-    background-color: white;
-    width: 100px;
-    height: 20px;
+    margin-top:1.7%;
+    width: 87px;
+    height: 19px;
     float: right;
-    margin-right: 0px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
@@ -53,24 +45,42 @@ a:link , a:visited{
     font-family: 'light';
     color: #6c6c6c;
 }
+#BtnHome
+{   margin-top: 2%;
+    float: right;
+    margin-right:1.2%;
 
-
-
-
-.Abajo ul 
+}
+#BtnBuscar
+{
+    margin-top: 2%;
+    float: right;
+    margin-right:1.2%;
+}
+/* End btns seek, home, search text field */
+/*Menu*/
+#menu
+{
+float: right;
+margin-top:6.5%;
+margin-right: -13.8%;
+}
+#menu ul 
 {
     list-style-type: none;
     text-align: right;
-    margin-top: 10px;
-
 }
 
-.Abajo li
+#menu li
 {
     display: inline;
-    margin-right: 0px;
-    margin-left: 38px;
     color:#575249;
+    margin-left: 34px;
+    font-size: 15px;
+    
 
 }
+/*EndMenu*/
+/*EndHeader*/
+
 
