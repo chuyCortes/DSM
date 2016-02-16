@@ -34,7 +34,7 @@ a:link , a:visited{
 }
 #Buscador  
 {
-    margin-top:1.7%;
+    margin-top:2.5%;
     width: 87px;
     height: 19px;
     float: right;
@@ -46,14 +46,14 @@ a:link , a:visited{
     color: #6c6c6c;
 }
 #BtnHome
-{   margin-top: 2%;
+{   margin-top: 3%;
     float: right;
     margin-right:1.2%;
 
 }
 #BtnBuscar
 {
-    margin-top: 2%;
+    margin-top: 3%;
     float: right;
     margin-right:1.2%;
 }
@@ -75,12 +75,32 @@ margin-right: -13.8%;
 {
     display: inline;
     color:#575249;
-    margin-left: 34px;
+    margin-left: 26px;
     font-size: 15px;
-    
-
+    font-family:'light';
 }
 /*EndMenu*/
 /*EndHeader*/
+/*firstYellow*/
+#firstYellow
+{   
+    /*height:313px;*/
+    height:389px;
+    overflow: hidden;
+    background-color: #FFCD36 ;
+    border-bottom: 76px solid #EDEDED;
+}
+.Banner
+{
+    height: 390px;
+    background-color:black;
+    opacity: .5;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+/*EndfirstYellow*/
+/*firstGray*/
 
-
+/*endFirstGray*/
