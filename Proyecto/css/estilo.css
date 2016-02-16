@@ -18,12 +18,16 @@ html {
     width: 1024px;
 }
 /*Header*/
-.head
-{
+.head{
     height: 95px;
     background-color: #FFCD36 ;
     overflow: hidden;
 }
+
+#logoUni{
+ margin-top:2.7%;
+}
+
 /*EndHeader*/
 
 
