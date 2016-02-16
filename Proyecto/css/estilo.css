@@ -12,6 +12,19 @@ html {
     -moz-box-sizing: border-box;
     vertical-align: baseline;
 }
+.conteiner{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1024px;
+}
+/*Header*/
+.head
+{
+    height: 95px;
+    background-color: #FFCD36 ;
+    overflow: hidden;
+}
+/*EndHeader*/
 
 
 
@@ -21,19 +34,7 @@ a:link , a:visited{
 }
 
 
-.btnBuscar
-{
-    width: 20px;
-    height: 20px;
-    float: left;
-    /*margin-right: 5px;*/
 
-}
-.btnBuscar img
-{
-    margin-left: 2px;
-    margin-top: 5px;
-}
 .Buscador input 
 {
     background-color: white;
@@ -48,55 +49,10 @@ a:link , a:visited{
     font-family: 'light';
     color: #6c6c6c;
 }
-.BtnHome
-{
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin-right: 5px;
-}
-.BtnHome img
-{
-    margin-left: 2px;
-    margin-top: 5px;
-}
-.Centro
-{
-    margin: 0 auto;
-}
-.CentroArriba
-{
-    background-color: #FFCD36;
-    height: 100px;
-    clear: both;
 
-}
-.Logo
-{
 
-    width: 143px;
-    height: 69px;
-    float:left;
 
-}
-.Arriba
-{
-    background-color: #FFCD36;
-    display: block;
-    height: 50px;
-    float: left;
-    display: inline-block;
 
-}
-.Abajo
-{
-
-    height: 50px;
-    display: block;
-    font-family:'light';
-    padding-right: 0px;
-
-}
 .Abajo ul 
 {
     list-style-type: none;
