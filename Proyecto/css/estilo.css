@@ -75,7 +75,7 @@ margin-right: -13.8%;
 {
     display: inline;
     color:#575249;
-    margin-left: 26px;
+    margin-left: 29.5px;
     font-size: 15px;
     font-family:'light';
 }
@@ -102,5 +102,42 @@ margin-right: -13.8%;
 }
 /*EndfirstYellow*/
 /*firstGray*/
+#firstGray
+{
+    overflow: hidden;
+    background-color:#EDEDED ;
+    width: 100%;
+}
 
+#firstGray_img
+{
+    margin-bottom:8%;
+    display:inline;
+    float: left;
+}
+.firstGray_title
+{
+    display: inline-block;
+    margin-left:20px;
+    margin-top:10px;
+    font-size:23px;
+    line-height:30px;
+    word-spacing: 0.222em;
+    float: left;
+    font-family:'light';
+    max-width: 285px;
+    color:#575249;
+    margin-bottom:28px;
+}
+#firstGray_des
+{
+    float: left;
+    font-size: 14px;
+    word-spacing: 0.0015em;
+    color:#575249;
+    max-width:589px;
+    margin-left: 20px;
+    line-height:20px;
+    font-family:'regular';
+}
 /*endFirstGray*/
