@@ -84,7 +84,6 @@ margin-right: -13.8%;
 /*firstYellow*/
 #firstYellow
 {   
-    /*height:313px;*/
     height:389px;
     overflow: hidden;
     background-color: #FFCD36 ;
@@ -106,7 +105,6 @@ margin-right: -13.8%;
 {
     overflow: hidden;
     background-color:#EDEDED ;
-    width: 100%;
 }
 
 #firstGray_img
@@ -126,7 +124,7 @@ margin-right: -13.8%;
     word-spacing: 0.222em;
     float: left;
     font-family:'light';
-    max-width: 285px;
+    max-width: 280px;
     color:#575249;
     margin-bottom:18px;
 }
@@ -136,7 +134,7 @@ margin-right: -13.8%;
     font-size: 14px;
     word-spacing: 0.15em;
     color:#575249;
-    max-width:589px;
+    max-width:572px;
     margin-left: 20px;
     line-height:20px;
     font-family:'regular';
@@ -162,7 +160,68 @@ margin-right: -13.8%;
     font-family: 'bold';
     font-size: 14.44px;
     margin-left:18%;    
-
 }
-
 /*endFirstGray*/
+/*firstWhite*/
+#firstWhite
+{
+    overflow: hidden;
+    background-color: white;
+}
+.firstWhite_news
+{
+    width: 240px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.firstWhite_img
+{   
+    margin-top: 55px;
+    margin-bottom: 40px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    height:203px;
+    width: 203px;
+    margin-left:8%;
+}
+.firstWhite_title
+{
+    font-size: 16px;
+    font-family: 'regular';
+    word-spacing: 0.30em;
+    color:#575249;
+    margin-bottom: 4%;
+}
+.firstWhite_description
+{
+ word-spacing: 0.08em;
+ font-size: 12px;
+ font-family: 'regular'; 
+ text-align: justify; 
+ margin-bottom:25px; 
+}
+.firstWhite_vm
+{
+    height: 25px;
+    width: 95px;
+    background-color: #914DB1;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    margin-bottom: 67px;
+}
+.firstWhite_vm a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'bold';
+    font-size: 14.44px;
+    margin-left:18%; 
+}
+.izq
+{
+    margin-left: 13px;
+}
+/*endFirstWhite*/
