@@ -300,7 +300,6 @@ margin-right: -13.8%;
 {
     width: 66%;
     float: left;
-    border:1px solid black ;
     overflow: hidden;
     margin-right: 20px;
 }
@@ -309,7 +308,7 @@ margin-right: -13.8%;
     width: 32%;
     float: left;
     overflow: hidden;
-    border:1px solid black ;
+    
 }
 .Titulos
 {
@@ -326,6 +325,43 @@ margin-right: -13.8%;
 .hrsSecondGrey
 {
      margin-top:38px;
+     margin-bottom:37px;
+}
+.listaContactosFrecuentes
+{
+    float: left;
+    color:#575249;
+    font-family:'regular';
+    list-style: none;
+    font-size: 14px;
+}
+.izqListaFrecuente
+{
+    margin-left: 20px;
+}
+#secondGrey_description
+{
+    color:#575249;
+    font-family:'regular';
+    font-size: 14px;
+    text-align: justify;
+    text-height: 20;
+    word-spacing: .15px;
+    margin-bottom:35px;
+}
+.lista
+{
+    float: left;
+    margin-left: 18px;
+    margin-right: 55px;
+    font-family:'regular';
+    color:#71a9db;
+    font-size: 14px;
+    margin-bottom:58px;
+}
+.lista li:first-line 
+{
+    color:#6c6c6c;
 }
 
 /*endSecondGrey*/
