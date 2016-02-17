@@ -100,21 +100,21 @@ margin-right: -13.8%;
     margin:auto;
 }
 /*EndfirstYellow*/
-/*firstGray*/
-#firstGray
+/*firstGrey*/
+#firstGrey
 {
     overflow: hidden;
     background-color:#EDEDED ;
 }
 
-#firstGray_img
+#firstGrey_img
 {
     margin-bottom:8%;
     display:inline;
     float: left;
 
 }
-.firstGray_title
+.firstGrey_title
 {
     display: inline-block;
     margin-left:20px;
@@ -128,7 +128,7 @@ margin-right: -13.8%;
     color:#575249;
     margin-bottom:18px;
 }
-#firstGray_des
+#firstGrey_des
 {
     float: left;
     font-size: 14px;
@@ -154,14 +154,14 @@ margin-right: -13.8%;
    position:relative;
 
 }
-#firstGray_vermas{
+#firstGrey_vermas{
     text-decoration: none;
     color: white;
     font-family: 'bold';
     font-size: 14.44px;
     margin-left:18%;    
 }
-/*endFirstGray*/
+/*endFirstGrey*/
 /*firstWhite*/
 #firstWhite
 {
@@ -173,7 +173,6 @@ margin-right: -13.8%;
     width: 240px;
     overflow: hidden;
     display: inline-block;
-    
 }
 .firstWhite_img
 {   
@@ -222,6 +221,111 @@ margin-right: -13.8%;
 }
 .izq
 {
-    margin-left: 13px;
+    margin-left: 16px;
+}
+.hrs
+{
+    width:  100%;
+    margin-bottom:67px;
+}
+#firstWhite_imgSabiasQue
+{
+    float:right;
+    margin-left:20px;
+    display: inline-block;
+}
+#firstWhite_titleSabiasQue
+{
+    font-size:23px;
+    line-height:30px;
+    word-spacing: 0.222em;
+    float: right;
+    font-family:'light';
+    max-width: 328px;
+    color:#575249;
+    margin-bottom:25px;
+    text-align: right;
+}
+#firstWhite_descriptionSabiasQue
+{
+    text-align: right;
+    text-justify: distribute;
+    word-spacing: 0.2em;
+    line-height:20px;
+    font-family:'regular';
+    font-size:14px;
+    color:#575249;
+    display: inline-block;
+    max-width:674px;
+    margin-bottom: 26px;
+}
+.firstWhite_verMasSabiasQue
+{
+    height: 25px;
+    width: 95px;
+    background-color: #914DB1;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    margin-left: 56.6%;
+    margin-bottom: 31px;
+}
+.firstWhite_verMasSabiasQue a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'bold';
+    font-size: 14.44px;
+    margin-left:18%;
+
+}
+.SabiasQue_minImage
+{
+    float: left;
+    margin-bottom:78px;
+}
+.minIzq
+{
+    margin-left: 20px;
 }
 /*endFirstWhite*/
+/*secondGrey*/
+#secondGrey
+{
+    overflow: hidden;
+    background-color:#EDEDED ;
+    padding-top: 28px;
+}
+#ServiciosQueOfrece
+{
+    width: 66%;
+    float: left;
+    border:1px solid black ;
+    overflow: hidden;
+    margin-right: 20px;
+}
+#ContactosFrecuentes
+{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    border:1px solid black ;
+}
+.Titulos
+{
+    font-size:24px;
+    word-spacing: 0.222em;
+    font-family:'light';
+    color:#575249;
+}
+#secondGrey_imgSContactosFrecuente
+{
+    margin-top: 7px;
+    margin-right:5px;
+}
+.hrsSecondGrey
+{
+     margin-top:38px;
+}
+
+/*endSecondGrey*/
