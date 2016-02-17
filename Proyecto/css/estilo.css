@@ -16,6 +16,7 @@ html {
     margin: 0 auto;
     overflow: hidden;
     width: 1024px;
+    /*width:320px;*/
 }
 /*Header*/
 .head{
@@ -172,7 +173,7 @@ margin-right: -13.8%;
 {
     width: 240px;
     overflow: hidden;
-    display: inline-block;
+    display:inline-table;
 }
 .firstWhite_img
 {   
@@ -363,5 +364,77 @@ margin-right: -13.8%;
 {
     color:#6c6c6c;
 }
-
 /*endSecondGrey*/
+/*secondWhite*/
+#secondWhite
+{
+    padding-top: 32px;
+    overflow: hidden;
+}
+#secondWhite_description
+{
+    color:#575249;
+    font-family:'regular';
+    font-size: 14px;
+    text-align: justify;
+    text-height: 20;
+    word-spacing: .15px;
+    margin-bottom:40px;
+}
+.ListProgramasPrevencion
+{
+    float: left;
+    margin-left: 18px;
+    margin-right: 53px;
+    font-family:'regular';
+    color:#71a9db;
+    font-size: 14px;
+    margin-bottom:58px;
+}
+/*.ListProgramasPrevencion li:first-line */
+.ListProgramasPrevencion p
+{
+    color:#6c6c6c;
+}
+/*endSecondWhite*/
+/*firstBlue*/
+#firstBlue
+{
+    background-color:#0097DB;
+    overflow: hidden;
+    padding-top:65px;
+}
+.firstBlueconteiner
+{
+    color:white;
+    font-family:'light';
+    font-size: 12px;
+    text-align: justify;
+    max-width: 328px;
+    word-spacing: .15px;
+    float: left;
+    margin-bottom: 60px;
+}
+.izqFirstBlue
+{
+    margin-left: 107px;
+}
+.firstBlueconteiner_img
+{
+    margin-left: 15px;
+}
+#hrFooter{
+    width: 58%;
+    margin-bottom:60px;
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+}
+#uanl{
+    display: inline-block;
+    float: right;
+    font-family:'regular';
+    color:white;
+    font-size: 9px;
+}
+/*endfirstBlue*/
