@@ -25,24 +25,65 @@
 }
 
 @media (max-width: 780px){
-    .conteiner{
-        margin: 0 auto;
-        overflow: hidden;
-        width:780px;
-    }
+    /*.Banner {background-color: blue; opacity: 1;}*/
+    .conteiner{margin: 0 auto; overflow: hidden; width:780px;}
+    /*menu*/
+    #menu{display: none; }
+    .icon-menu{display:block;}
+    /*endmenu*/
+    /*firstGrey*/
+    #firstGrey_img{margin-bottom: 2%;}
+    #firstGrey_des{margin:0 auto; max-width:98%;}
+    .verMas{float:left;}
+    /*endFirstGrey*/
+    /*firstWhite*/
+    .firstWhite_news:nth-last-of-type(2){margin-left:0;}
+    #firstWhite_descriptionSabiasQue{margin:0 auto; max-width:98%;text-align:justify; margin-bottom: 2%;}
+    .firstWhite_verMasSabiasQue{margin-left:0%;}
+    .SabiasQue_minImage:nth-last-of-type(1){margin-left:0;}
+    /*endfirstEhite*/
+    /*secondGrey*/
+    #ServiciosQueOfrece{width:100%;}
+    /*endSecondGrey*/
+    /*secondWhite*/
+    #ContactosFrecuentes{width:50%; margin-bottom:2%;}
+    /*endSecondWhite*/
+    /*firstBlue*/
+    .firstBlueconteiner:nth-last-of-type(1){margin-left:40%;}
+    #hrFooter{width:46%;}
+    /*endFirstBlue*/
+}
+@media (max-width: 480px){
+   /*.Banner {background-color: red; opacity: 1;}*/
+   .icon-menu{margin-top: 10%;}
+   .conteiner{margin: 0 auto; overflow: hidden; width:480px;}
+   /*firstGrey*/
+   #firstGrey_img{width:100%;}
+   #firstGrey_des{margin-bottom:2%;}
+   /*EndfirstGrey*/ 
+   /*firstWhite*/
+   .firstWhite_news{width:100%;}
+   .izq{margin-left:0;}
+   .firstWhite_img{ margin-left:25%;}
+   #firstWhite_imgSabiasQue{width: 100%;}
+   #firstWhite_titleSabiasQue{max-width:100%; text-align:justify;}
+   .SabiasQue_minImage{margin-bottom:5%; margin-left:10%;}
+   .SabiasQue_minImage:nth-last-of-type(1){margin-left:10%;}
+   /*EndfirstWhite*/
+   /*firstBlue*/
+   .firstBlueconteiner{margin-left:0; max-width:100%;}
+   .firstBlueconteiner:nth-last-of-type(1){margin-left:0%;}
+   #hrFooter{width:100%;}
+   #uanl{float:left; margin-left:4%;}
+   /*endfirstBLue*/
 }
 @media (max-width: 320px){
-    .conteiner{
-        margin: 0 auto;
-        overflow: hidden;
-        width:320px;
-    }
-    .Banner 
-    {
-        background-color: blue;
-        opacity: 1;
-    }
-}
-@-moz-document url-prefix() {
-
+   /*.Banner {background-color: green; opacity: 1;}*/
+   .conteiner{margin: 0 auto; overflow: hidden; width:320px;}
+   .firstWhite_img{ margin-left:15%;}
+   .SabiasQue_minImage{margin-left:0%;}
+   .SabiasQue_minImage:nth-last-of-type(1){margin-left:0%;}
+   #ContactosFrecuentes{width:100%;}
+   .firstBlueconteiner:nth-last-of-type(1){margin-left:25%;}
+   #uanl{float:left; margin-left:0; text-align:center;}
 }
