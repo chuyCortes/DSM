@@ -12,6 +12,9 @@ html {
     -moz-box-sizing: border-box;
     vertical-align: baseline;
 }
+
+
+
 .conteiner{
     margin: 0 auto;
     overflow: hidden;
@@ -360,7 +363,8 @@ margin-right: -13.8%;
     font-size: 14px;
     margin-bottom:58px;
 }
-.lista li:first-line 
+/*.lista li:first-line */
+.lista p
 {
     color:#6c6c6c;
 }
@@ -424,7 +428,7 @@ margin-right: -13.8%;
     margin-left: 15px;
 }
 #hrFooter{
-    width: 58%;
+    width: 59%;
     margin-bottom:60px;
     display: inline-block;
     float: left;
