@@ -24,6 +24,7 @@
          url('../../Types/OpenSans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+
 @media (max-width: 780px){
     /*.Banner {background-color: blue; opacity: 1;}*/
     .conteiner{margin: 0 auto; overflow: hidden; width:780px;}

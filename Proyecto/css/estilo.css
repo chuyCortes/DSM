@@ -83,7 +83,10 @@ margin-right: -13.8%;
     font-size: 15px;
     font-family:'light';
 }
-
+#menu li:hover
+{
+    border-bottom: 1px solid #575249;
+}
 #menu-bar
 {
     display:none;
