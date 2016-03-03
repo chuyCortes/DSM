@@ -9,12 +9,10 @@
 }
 @font-face {
     font-family: 'regular';
-    src: url('../../Types/OpenSans/OpenSans-Regular.ttf');
-    src: url('../../Types/OpenSans/opensans_regular_macroman/OpenSans-Regular-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../../Types/OpenSans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../../Types/OpenSans/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'), /* Modern Browsers */
-         url('../../Types/OpenSans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+         src: url('../../Types/OpenSans/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),  /* Firefox 3.6+, IE9+, Chrome 6+, Safari 5.1+*/
+         url('../../Types/OpenSans/OpenSans-Regular.ttf') format('truetype');  /* Safari 3—5, Chrome4+, Firefox 3.5, Opera 10+ */
 }
+
 @font-face {
     font-family: 'bold';
     src: url('../../Types/OpenSans/OpenSans-Bold.ttf');
@@ -87,4 +85,8 @@
    #ContactosFrecuentes{width:100%;}
    .firstBlueconteiner:nth-last-of-type(1){margin-left:25%;}
    #uanl{float:left; margin-left:0; text-align:center;}
+}
+
+@-moz-document url-prefix() {
+
 }
